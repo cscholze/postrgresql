@@ -1,0 +1,38 @@
+{
+  "name": "postrgresql",
+  "version": "1.0.0",
+  "description": "Experiment with PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cscholze/postrgresql.git"
+  },
+  "author": "Caleb Scholze <jcsdevel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cscholze/postrgresql/issues"
+  },
+  "homepage": "https://github.com/cscholze/postrgresql#readme",
+  "dependencies": {
+    "pg": "^4.5.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "nodemon": "^1.9.1",
+    "sequelize-cli": "^2.3.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  }
+}
